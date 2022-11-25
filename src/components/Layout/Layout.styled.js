@@ -3,36 +3,32 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
+  height: 60px;
+
   background-color: #1d1d27;
-  z-index: 999;
 `;
 
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  width: 420px;
+  width: 300px;
   margin: 0 auto;
   padding: 20px;
 `;
 
 export const LinkStyled = styled(NavLink)`
   box-sizing: border-box;
-  width: 200px;
-  height: 60px;
-  border-radius: 6px;
   background-color: white;
-  text-decoration: none;
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 700;
-  padding: 10px 25px;
+  color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 20px;
   text-align: center;
+  text-decoration: none;
   &:hover,
   &.active {
-    background-color: orange;
+    background-color: #ffb457;
     color: white;
   }
 `;
