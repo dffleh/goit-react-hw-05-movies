@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchPopularFilms } from 'API/Fetch';
+import { List } from './Home.styled';
+import { FilmCard } from 'components/FilmCard/FilmCard';
 
 const Home = () => {
   const [films, setFilms] = useState([]);

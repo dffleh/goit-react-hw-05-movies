@@ -6,7 +6,7 @@ export const Header = styled.header`
   height: 100px;
   position: fixed;
   top: 0;
-  background-color: rgb(30, 30, 249);
+  background-color: #1d1d27;
   z-index: 999;
 `;
 
